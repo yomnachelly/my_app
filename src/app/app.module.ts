@@ -8,7 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { FormComponent } from './form/form.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+//import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +17,16 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeaderComponent,
     FormComponent,
     HomeComponent,
-    LoginComponent,
-    DashboardComponent
+    //LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+   // HttpClientModule
+
+   
+   
 
   ],
   providers: [],
